@@ -1,0 +1,27 @@
+<html>
+<body>
+<script>
+var n1,n2,ch,res;
+n1=prompt("Enter First Number     :     ");
+n2=prompt("Enter Second Number    :    ");
+
+n1=parseInt(n1);
+n2=parseInt(n2);
+
+ch=prompt("Enter your operator :     (   +   -  *  /  )     ");
+n1=parselnt(n1);
+n2=parselnt(n2);
+ch=prompt("Enter the Operator:(+,_,*or/)");
+
+switch(ch)
+{ 
+case '+':
+res=n1+n2;
+document.write("Addition     "+res);
+break;
+default:
+document.write("invalid choice");
+}
+</script>
+</body>
+</html>
