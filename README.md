@@ -1,1 +1,1 @@
-media institute java script projects
+javascript project of media institue of technology
